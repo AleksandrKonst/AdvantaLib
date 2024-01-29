@@ -1,4 +1,3 @@
-using System.Drawing;
 using ds.test.impl.Attributes;
 
 namespace ds.test.impl.LibPlugin;
@@ -23,7 +22,7 @@ public abstract class Plugin : IPlugin
     
     public string Version { get; }
     
-    public Image Image { get => Image.FromFile($"lib/ds/test/Images/{GetType().Name}.png"); }
+    public System.Drawing.Image Image { get => System.Drawing.Image.FromFile($"lib/ds/test/Images/{GetType().Name}.png"); }
     
     public virtual string Description { get; }
     
