@@ -35,6 +35,7 @@ interface PluginFactory
 библиотек.
 
 ## Test
+Проверка в консольном приложении
 ```c#
 using ds.test.impl;
 
